@@ -2493,6 +2493,47 @@ git checkout / git restore — откат отдельных файлов
 
 ---
 
+##SQL
+
+### Порядок выполнения запроса
+
+1. from <table>
+
+2. join()
+
+3. where
+
+4. group by
+
+5. having
+
+6. select <>
+
+7. count(*)over()
+
+8. qualify
+
+9. order by
+
+
+---
+
+## Виды команд SQL
+
+1. DDL - CREATE, DROP, ALTER, TRUNCATE
+
+2. DML - INSERT,UPDATE, DELETE
+
+3. DCL (Data Control Language) - GRANT, REVOKE
+
+4. TCL - COMMIT, ROLLBACK, SAVE POINT
+
+5. DQL - SELECT
+
+---
+
+## Типы данных
+
 
 | Числовые | Строковые | Логические | Дата/время | Остальные |
 |----|----|----|----|----|
