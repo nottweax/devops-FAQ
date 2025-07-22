@@ -2491,3 +2491,14 @@ git checkout / git restore — откат отдельных файлов
 **Важно понимать разницу: reset — «переписывает историю», а revert — «создаёт новую».**
 
 
+---
+
+|----|----|----|----|----|
+| Числовые | Строковые | Логические | Дата/время | Остальные |
+|----|----|----|----|----|
+| smallint | varchar(n) | boolean | timestamp | json |
+| integer | char(n) |  | date | array |
+| bigint | text |  | time | uuid |
+| numeric(p,s) |  |  | interval | xml |
+| double precision |  |  |  | cidr |
+|----|----|----|----|----|
