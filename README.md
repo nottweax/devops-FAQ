@@ -2493,7 +2493,7 @@ git checkout / git restore — откат отдельных файлов
 
 ---
 
-|----|----|----|----|----|
+
 | Числовые | Строковые | Логические | Дата/время | Остальные |
 |----|----|----|----|----|
 | smallint | varchar(n) | boolean | timestamp | json |
@@ -2501,4 +2501,4 @@ git checkout / git restore — откат отдельных файлов
 | bigint | text |  | time | uuid |
 | numeric(p,s) |  |  | interval | xml |
 | double precision |  |  |  | cidr |
-|----|----|----|----|----|
+
