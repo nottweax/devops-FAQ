@@ -2589,7 +2589,7 @@ Sort Merge Join (с повторение / без повторений) - **об
 
 - Агрегирующие (Aggregate) - SUM, MIN, MAX, AVG
 
-- Ранжирующие (Ranking) - RANK, DEBCE_RANK, ROW_NUMBER
+- Ранжирующие (Ranking) - RANK, DENCE_RANK, ROW_NUMBER
 
 - Функции смещения (Value) - LAG, LEAD, FIRST_VALUE, LAST_VALUE
 
